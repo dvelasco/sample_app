@@ -1,0 +1,100 @@
+ 1313  cd views
+ 1314  ls
+ 1315  cd users
+ 1316  ls
+ 1317  vim edit.html.erb
+ 1318  mv edit.html.erb e_h_erb~
+ 1319  cp e_h_erb~ edit.html.erb
+ 1320  vim edit.html.erb
+ 1321  cd ..
+ 1322  ls
+ 1323  cd sh*
+ 1324  ls
+ 1325  vim _error*.erb
+ 1326  cd ..
+ 1327  cd users
+ 1328  ls
+ 1329  vim _fields.html.erb
+ 1330  cd ..
+ 1331  cd shared
+ 1332  ls
+ 1333  vim _error*erb
+ 1334  cd ..
+ 1335  cd ../cont*
+ 1336  ls
+ 1337  vim users*.rb
+ 1338  cd ..
+ 1339  cd view*
+ 1340  cd shared
+ 1341  ls
+ 1342  vim _error*.erb
+ 1343  cd ../../..
+ 1344  cd spec
+ 1345  cd cont*
+ 1346  ls
+ 1347  vim users_con*.rb
+ 1348  cd ..
+ 1349  cd ..
+ 1350  cd app/cont*
+ 1351  ls
+ 1352  vim users_controller.rb
+ 1353  vim users_controller.rb
+ 1354  cd ../views/users
+ 1355  ls
+ 1356  vim new.html.erb
+ 1357  ls -lart
+ 1358  vim edit.html.erb
+ 1359  cd new.html.erb
+ 1360  vim new.html.erb
+ 1361  cd ..
+ 1362  cd lay*
+ 1363  vim _header.html.erb
+ 1364  cd ..
+ 1365  cd users
+ 1366  ls -lart
+ 1367  vim new.html.erb
+ 1368  vim new.html.erb
+ 1369  ls -lart
+ 1370  cd ../..
+ 1371  cd ..
+ 1372  cd spec
+ 1373  cd req*
+ 1374  ls
+ 1375  vim users_spec.rb
+ 1376  cd ../../app/vi*/us*
+ 1377  ls
+ 1378  vim new.html.erb~
+ 1379  vim _fields.html.erb
+ 1380  vim new.html.erb~
+ 1381  ls
+ 1382  vim e_h_erb~
+ 1383  vim _fields.html.erb
+ 1384  vim _fields.html.erb
+ 1385  cd ..
+ 1386  ls
+ 1387  cd user*
+ 1388  ls
+ 1389  vim new.html.erb
+ 1390  vim edit.html.erb
+ 1391  vim edit.html.erb
+ 1392  vim edit.html.erb~
+ 1393  rm edit.html.erb
+ 1394  cp edit.html.erb~ edit.html.erb
+ 1395  vim _fields_html.erb~
+ 1396  ls
+ 1397  vim _fields.html.erb~
+ 1398  rm _fields.html.erb
+ 1399  cp _fields.html.erb~ _fields.html.erb
+ 1400  vim new.html.erb~
+ 1401  ls
+ 1402  vim new.html.erb
+ 1403  vim new.htl.erb~
+ 1404  vim new.html.erb~
+ 1405  vim _fields.html.erb
+ 1406  vim new.html.erb
+ 1407  ls -lart
+ 1408  vim new.html.erb~~
+ 1409  vim new.html.eerb~~
+ 1410  vim new.html.erb~~
+ 1411  vim new.html.erb
+ 1412  history 100 > hist_tbug

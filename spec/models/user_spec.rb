@@ -6,8 +6,8 @@ describe User do
     @attr = {
 	    :name => "Example User", 
 	    :email => "user@example.com",
-	    :password => "barfoo",
-	    :password_confirmation => "barfoo"
+	    :password => "foobar",
+	    :password_confirmation => "foobar"
     }
   end
 
@@ -96,6 +96,7 @@ describe User do
       it "should be false if the passwords don't match" do
         @user.has_password?("invalid").should be_false
       end
+
     end
 
     describe "authenticate method" do
@@ -111,7 +112,30 @@ describe User do
         matching_user = User.authenticate(@attr[:email], @attr[:password])
         matching_user.should == @user
       end
+
     end
 
   end
+
+  describe "admin attribute" do
+
+    before(:each) do
+      @user = User.create!(@attr)
+    end
+
+    it "should respond to admin" do
+      #puts "user_spec.rb: #{@user.inspect}"
+      @user.should respond_to(:admin)
+    end
+    it "should not be an admin by default" do
+      @user.should_not be_admin
+    end
+    it "should be convertible to an admin" do
+      @user.toggle!(:admin)
+      #puts "user_spec.rb: convert to admin: #{@user.inspect}"
+      @user.should be_admin
+    end
+
+  end
+
 end
